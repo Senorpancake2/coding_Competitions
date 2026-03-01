@@ -12,6 +12,7 @@ print("number of test cases", T)
 
 for i in range(T):
     
+    line = sys.stdin.readline().rstrip()
     
     a, b = map(int,line.split())
 
